@@ -37,14 +37,14 @@ const app = new Vue({
             {
                 id: 4,
                 imgurl:'images/foto4.jpg',
-                name: 'Frank McMillan',
-                occupation: 'ield Technician'
+                name: 'Ben Fitzgerald',
+                occupation: 'Repair Technician'
             },
             {
                 id: 5,
                 imgurl:'images/foto5.jpg',
-                name: 'Frank McMillan',
-                occupation: 'Field Technician'
+                name: 'Ben Wilson',
+                occupation: 'Customer Service Manager'
             }
         ]
     },
