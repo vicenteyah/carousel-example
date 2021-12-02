@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+
+:root{
+    --btnArrow: #FBDF02;
+    --mainTitleColor:#141414;
+    --textMediumColor: #2D41AB;
+    --textRegularColor:#929292;
+
+    /**- Fonts -**/
+    --font-roboto-medium: 'Roboto-Medium';
+    --font-roboto-regular: 'Roboto-Regular';
+    --font-roboto-thin: 'Roboto-Thin';
+}
+body{
+    font-size: 14px;
+    background: #fff;
+}
+
+section, header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
